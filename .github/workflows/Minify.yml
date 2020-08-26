@@ -36,7 +36,7 @@ jobs:
         message: "Minified .js files"
         add: "*"
         author_name: "Github Action"
-        author_mail: "action@github.com"
+        author_email: "action@github.com"
       env:
       # This is necessary in order to push a commit to the repo
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged

@@ -21,6 +21,7 @@ class Ramo {
 
     constructor(name, sigla, credits, category, prer = [], id, malla, creditsSCT = 0, isCustom = false, dictatesIn="") {
         // Propiedades del ramo
+        console.log("test")
         this.name = name;
         this.sigla = sigla;
         this.credits = credits;

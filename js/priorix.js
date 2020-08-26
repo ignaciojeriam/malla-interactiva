@@ -4,6 +4,7 @@ class Priorix extends SemesterManager {
         this.faes = {
             1: 1
         }
+        console.log("test")
 
         // {USM : {1 : numero, 2: otroNumero, ...}}, SCT : {...}}
         this.prevSemesterSums = {
